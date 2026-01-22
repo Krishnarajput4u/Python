@@ -1,4 +1,4 @@
-"""write a prog to convert temperature from celsius to farenheit and kelvin 
+"""write a prog to convert temperature from celsius to fahrenheit and kelvin 
 temperature in celsius is 25 Degree """
 celsius = 25
 farenheit = (celsius * 9/5) + 32
