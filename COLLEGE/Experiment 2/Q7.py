@@ -6,10 +6,6 @@ O/P: day=21 month=9 year 2005
 day = int(input("Enter day: "))
 month = int(input("Enter month: "))
 year = int(input("Enter year: "))
-# Days in each month
-day = int(input("Enter day: "))
-month = int(input("Enter month: "))
-year = int(input("Enter year: "))
 
 if day < 30: # Simplified: assuming all months have 30 days
     day += 1
