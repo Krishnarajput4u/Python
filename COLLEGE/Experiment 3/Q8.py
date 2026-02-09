@@ -1,3 +1,3 @@
 a=input("Enter the string : ")
-
-print(a.upper())
+for ch in a:
+    print(ch.upper(),end="")
