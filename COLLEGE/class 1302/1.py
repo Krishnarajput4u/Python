@@ -1,0 +1,17 @@
+x=input("Enter the string : ")
+#all string operatiosn
+print("Length of the string : ",len(x))
+print("Upper case : ",x.upper())
+print("Lower case : ",x.lower())
+print("Title case : ",x.title())
+print("Capitalize : ",x.capitalize())
+print("Swapcase : ",x.swapcase())
+print("Casefold : ",x.casefold())
+# find() 
+# index()
+# rindex()
+# count()
+# startswith()
+# endswith()
+
+# print("Count of a : ",x.count('a'))
