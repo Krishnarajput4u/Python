@@ -1,14 +1,11 @@
-student={
-    "Name":"Krishna Som",
-    "Batch":"B.Tech CSE 2021-25",
-    "Roll No":21001,
-}
+try:
+    num1 = int(input("Enter first number: "))
+    num2 = int(input("Enter second number: "))
 
-for key,items in student.items():
-    print(key,":",items)
-for key,items in student.items():
-    print(key,items)
-for key,items in student.items():
-    print(key)
-for key,items in student.items():
-    print(items)
+    result = num1 / num2
+    print("Result =", result)
+
+except:
+    print("Error occurred! Division by zero is not allowed.")
+    
+print("Hello World!")

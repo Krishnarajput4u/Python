@@ -1,0 +1,61 @@
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.task-table th {
+    background: #4CAF50;
+    color: white;
+    padding: 14px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.task-table td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.task-table tr:hover {
+    background: #f4f8fb;
+    transition: 0.3s;
+}
+
+/* Priority badges */
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.high { background: #e74c3c; }
+.medium { background: #f39c12; }
+.low { background: #2ecc71; }
+
+/* Complete button */
+.complete-btn {
+    background: #3498db;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.complete-btn:hover {
+    background: #2980b9;
+}
+
+/* Overdue deadline */
+.overdue {
+    color: #e74c3c;
+    font-weight: bold;
+}
